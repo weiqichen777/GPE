@@ -4,7 +4,7 @@ using namespace std;
 int dx[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
 int dy[8] = {-1, 0, 1, -1, 1, -1, 0, 1};
 
-int sol(vector<vector<char>>v, int x, int y){
+int sol(vector<vector<char> >v, int x, int y){
 
     int r = v.size();
     int c = v[0].size();
@@ -48,7 +48,7 @@ int main(){
         cin >> row >> col >> n;
         printf("%d %d %d\n", row, col, n);
 
-        vector<vector<char>>v(row, vector<char>(col, '@'));
+        vector<vector<char> >v(row, vector<char>(col, '@'));
         for(int i = 0; i < row; i++){
             for(int j = 0; j < col; j++){
                 cin >> v[i][j];

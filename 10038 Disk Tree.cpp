@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<map<string, int>> dir;
+vector<map<string, int > > dir;
 
 void getDFS(int node, int space){
     for(auto it : dir[node]){

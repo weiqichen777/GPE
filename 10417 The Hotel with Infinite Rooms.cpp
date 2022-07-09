@@ -4,11 +4,10 @@ using namespace std;
 
 int main(){
 
-    int s = 0, d = 0;
-    int ans = 0;
+    long long s, d;
+    
     while(cin >> s >> d){
 
-        ans = 0;
         while(d){
             d -= s;
             s += 1;

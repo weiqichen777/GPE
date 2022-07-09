@@ -8,7 +8,7 @@ int main(){
 
         vector<char> v1(s1.begin(), s1.end());
         vector<char> v2(s2.begin(), s2.end());
-        vector<vector<int>> dp(v1.size()+1, vector<int>(v2.size()+1, 0));
+        vector<vector<int> > dp(v1.size()+1, vector<int>(v2.size()+1, 0));
 
         for(int i = 1; i <= v1.size(); i++){
             for(int j = 1; j <=v2.size(); j++){
